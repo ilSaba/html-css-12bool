@@ -4,15 +4,23 @@
   border: 1px solid black;
 }
 
+.container{
+  position: relative;
+}
+
 p{
+  line-height: 200px;
   text-align: center;
-  vertical-align: middle;
+
+}
+
+.padding-nested{
+  padding: 3px 3px;
+  padding-bottom: 3px;
 }
 
 .nested{
+  height: 100%;
   background-color: #F07F80;
-  /* height: 150px */
   border: 1px solid #fff;
-  /* margin: 3px 3px;
-  margin-bottom: 3px; */
 }
